@@ -1,0 +1,173 @@
+.flex-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+nav {
+text-align: right;
+}
+
+.flex-container {
+display: flex;
+height: 69px;
+background-color: black;
+border-bottom: 1px solid seashell;
+align-items: center;
+position: fixed;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+color: seashell;
+text-decoration: underline;
+}
+
+#shop {
+width: 1000px;
+height: 700px;
+margin: auto;
+padding: 70px;
+display: flex;
+}
+
+header img{
+	height: 50px;
+	padding-left: 10px;
+}
+
+
+
+h2{
+	font-weight: bold;
+	display: block;
+}
+
+h2, h3, h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+h5{
+	font-weight: bold;
+	display: block;
+}
+
+
+nav-span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.content {
+width: 1240px;
+justify-content: center;
+align-items: center;
+}
+
+
+
+#mission .container {
+background-color: black;
+width: 100%;
+margin: auto;
+}
+
+body {
+font-family: Helvetica;
+color: seashell;
+font-size: 22px;
+text-align: center;
+opacity: 0.9;
+background-color: black;
+}
+
+
+
+.flex-container img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.flex-container span {
+text-decoration: underline;
+}
+
+.main {
+padding-top: 69px;
+opacity:0.9;
+margin: auto;
+height: 700px;
+width: 1200px;
+background-image: url("file:///C:/CodecademyProjects/Teacozy/img-mission-background.jpg");
+}
+
+
+
+.location{
+	width: 300px;
+	opacity: 1.0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 280px;
+	padding: 10px;
+	margin: 5px 20px;
+	background-color: black;
+}
+
+
+
+.item {
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.item img {
+height: 200px;
+width: 300px;
+margin: 10px;
+display: block;
+}
+
+.item span{
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content {
+  background: black;
+  align-items: center;
+}
+
+.flex-container nav {
+  align-items: right;
+}
+
+.flex-container .location{
+ padding-top: 5px;
+}
+
+#locations {
+	height: 500px;
+	background-image: url("file:///C:/CodecademyProjects/Teacozy/img-locations-background.jpg");
+	padding-top: 70px;
+}
+
+#contact{
+	height: 200px;
+}
+
+#contact{
+	height: 200px;
+}
+
+footer {
+text-align: left;
+}
