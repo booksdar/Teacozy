@@ -1,139 +1,118 @@
+/* All Elements CSS*/
 body {
-  color: seashell;
-  font-size: 22px;
-  font-family: Helvetica sans-serif;
-  background-color: black;
-  opacity: 0.9;
-  text-align: center;
+	font-size: 22px;
+	font-family: Helvetica, serif;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
 }
-
 nav {
-text-align: right;
-flex-grow: 1;
+	text-align: right;
+	flex-grow: 1;
 }
-
 nav span {
-  display: inline-block;
-  padding: 20px 10px;
+	display: inline-block;
+	padding: 20px 10px;
 }
-
 header {
-  height: 69px;
-  width: 100%;
-  position: fixed;
-  background-color: black;
-  border-bottom: 1px solid seashell;
-  align-items: center;
-  z-index: 1;
-}
-
-.flex-container img {
-  height: 50px;
-  padding-left: 10px;
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	z-index: 1;
+	align-items: center;
 
 }
-
+header img {
+	height: 50px;
+	padding-left: 10px;
+}
 a {
-color: seashell;
-text-decoration: underline;
+	color: seashell;
+	text-decoration: underline;
 }
-
-h2, h3, h4 {
-  padding: 10px;
-  margin: 0;
+h2,h4 {
+	padding: 10px;
+	margin: 0px;
 }
-
-h2, h5 {
-font-weight: bold;
-display: block;
+h2 {
+	font-weight: bold;
+	display: block;
 }
-
-footer {
-  padding-left: 20px;
-  text-align: left;
+h5 {
+	font-weight: bold;
+	display: block;
+}
+footer{
+	text-align: left;
+padding-left: 20px;
 }
 
 .flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
-
 .main {
-  width: 1200px;
-  padding-top: 69px;
-  opacity: 0.9;
-  margin: auto;
+	padding-top: 69px;
+	width: 1200px;
+	opacity: 0.9;
+	margin: auto;
 }
-
 .item {
-  padding: 5px;
+	padding: 5px;
 }
-
 .item img {
-  height: 200px;
-  margin: 10px;
-  display: block;
-}
+	height: 200px;
 
+	display: block;
+	margin: 10px;
+}
 .item span {
-  padding: 5px;
-  font-weight: bold;
-  text-align: center;
-  display: block;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
 }
-
-.flex-containeritems {
-  padding-top: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 430px;
-  width: 1000px;
+.flex-container .location {
+ padding-top: 5px;
 }
-
-
-
 .location {
-  height: 300px;
-  width: 300px;
-  opacity: 1.0;
-  display: flex;
-  flex-basis: 280px;
-  padding: 10px;
-  margin: 5px 20px;
-  justify-content: center;
-  background-color: black;
-  flex-direction: column;
+	width: 300px;
+	opacity: 1.0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 280px;
+	padding: 10px;
+	margin: 5px 20px;
+	background-color: black;
 }
 
 #mission {
-  height: 700px;
-  background-image: url("file:///C:/CodecademyProjects/Teacozy/img-mission-background.jpg");
-  padding-top: 70px;
+	height: 700px;
+	background-image: url("file:///C:/CodecademyProjects/Teacozy/img-mission-background.jpg");
+    padding-top: 70px;
+}
+#mission .content {
+background-color: black;
+width: 100%;
+margin: auto;
 }
 
-#mission .container {
-  width: 100%;
-  margin: auto;
-  background-color: black;
+#store {
+width: 1000px;
+height: 700px;
+margin: auto;
+padding: 70px;
 }
-
-#shop {
-  height: 700px;
-  width: 1000px;
-  padding: 70px;
-  justify-content: center;
-}
-
 #locations {
-  height: 500px;
-  width: 980px
-  padding-top: 70px;
-  background-image: url("file:///C:/CodecademyProjects/Teacozy/img-locations-background.jpg");
+	height: 500px;
+	background-image: url("file:///C:/CodecademyProjects/Teacozy/img-locations-background.jpg");
+	padding-top: 70px;
 }
-
 #contact {
-  height: 200px;
+	height: 200px;
 }
